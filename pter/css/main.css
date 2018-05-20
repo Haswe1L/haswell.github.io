@@ -213,3 +213,118 @@ body a {
 
 .mnu-links li {
   margin-top: 40px; }
+
+.news {
+  width: 100%;
+  height: 500px;
+  background-color: #d4d4d4; }
+
+.title {
+  display: block;
+  width: 450px;
+  padding-left: 60px;
+  border-bottom: 3px solid;
+  border-color: black;
+  margin-top: 60px; }
+
+.title h1 {
+  font-size: 60px;
+  margin: 0; }
+
+.photo {
+  width: 100%;
+  height: 960px;
+  background-image: url("../img/electricity-1280x640.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  z-index: 1; }
+
+.container-carousel {
+  margin: 0 auto;
+  width: 450px;
+  height: 400px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  z-index: 100; }
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  margin-top: 200px; }
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 380px;
+  height: 360px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  -webkit-border-radius: 10px;
+          border-radius: 10px; }
+
+.a {
+  -webkit-transform: rotateY(0deg) translateZ(390px);
+          transform: rotateY(0deg) translateZ(390px); }
+
+.b {
+  -webkit-transform: rotateY(60deg) translateZ(390px);
+          transform: rotateY(60deg) translateZ(390px);
+  background: #0072bc; }
+
+.c {
+  -webkit-transform: rotateY(120deg) translateZ(390px);
+          transform: rotateY(120deg) translateZ(390px);
+  background: #39b54a; }
+
+.d {
+  -webkit-transform: rotateY(180deg) translateZ(380px);
+          transform: rotateY(180deg) translateZ(380px);
+  background: #f26522; }
+
+.e {
+  -webkit-transform: rotateY(240deg) translateZ(390px);
+          transform: rotateY(240deg) translateZ(390px);
+  background: #630460; }
+
+.f {
+  -webkit-transform: rotateY(300deg) translateZ(390px);
+          transform: rotateY(300deg) translateZ(390px);
+  background: #8c6239; }
+
+.buttons {
+  top: 1630px;
+  width: 100%;
+  height: 40px;
+  padding: 40px;
+  z-index: 100; }
+
+.next {
+  right: 6em;
+  float: right;
+  font-size: 40px;
+  color: #fff; }
+
+.prev {
+  left: 5em;
+  float: left;
+  font-size: 40px;
+  color: #fff; }
+
+.bgc-carusel {
+  z-index: 10;
+  width: 100%;
+  height: 960px;
+  background-color: rgba(0, 0, 0, 0.5); }
